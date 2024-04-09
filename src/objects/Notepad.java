@@ -1,3 +1,5 @@
+package objects;
+
 public class Notepad {
     private String name;
     private int year;
@@ -16,7 +18,7 @@ public class Notepad {
 //            return true;
 //        }
 //
-//        Notepad compared = (Notepad) object;
+//        objects.Notepad compared = (objects.Notepad) object;
 //
 //        return this.name.equals(compared);
 //    }
